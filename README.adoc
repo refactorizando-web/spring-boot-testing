@@ -1,0 +1,33 @@
+= Examples of Testing with Spring Boot =
+
+== Introduction
+
+Spring Boot give us different and multiples ways to create and develop test for our applications.
+
+If you want more information about testing with Spring Boot you can visit:
+https://refactorizando.com/ejemplos-testing-spring-boot
+
+
+== How can We create tests with Spring Boot?
+
+We can use different ways of generate test from Unit to Integration Test.
+
+To generate Integration Test we can use:
+
+    * @SpringBootTest with other functionalities such as AutoconfigureMockMvc
+    * @MockBean
+    * @DataJpaTest to verify the integration with our repository layer.
+    * @WebTestClient for reactive applications with WebFlux
+    * @WebMvcTest to make test for our controller layer.
+    * TestRestTemplate to use it as  HTTP Client.
+
+In this example we are going to explore only some functionalities.
+
+== How does it run?
+
+This is Spring Boot application so to run it you can run the next command:
+
+   mvn spring-boot:run
+
+
+
