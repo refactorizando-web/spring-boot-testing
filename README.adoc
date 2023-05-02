@@ -5,8 +5,9 @@
 Spring Boot give us different and multiples ways to create and develop test for our applications.
 
 If you want more information about testing with Spring Boot you can visit:
-https://refactorizando.com/ejemplos-testing-spring-boot
 
+* [Spanish] https://refactorizando.com/ejemplos-testing-spring-boot
+*  [English] https://refactorizando.com/en/examples-of-testing-in-spring-boot/
 
 == How can We create tests with Spring Boot?
 
